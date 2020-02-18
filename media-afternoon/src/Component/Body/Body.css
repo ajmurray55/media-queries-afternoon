@@ -1,0 +1,57 @@
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../header-bg.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+.nice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.TMM-button{
+    background-color: gold;
+    color: black;
+    border: gold;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+@media (min-width: 400px){
+  
+    .welcome{
+        font-size: xx-large;
+        width: 400px;
+        height: 50px;
+
+    }
+    .nice{
+        text-align: center;
+        font-size: 60px;
+    }
+    .TMM-button{
+        width: 250px;
+        height: 50px;
+    }
+
+}
