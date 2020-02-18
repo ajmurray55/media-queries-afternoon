@@ -75,8 +75,9 @@ nav {
     justify-content: space-around;
     background-color: #212529;
     animation-name: drop;
-    animation-duration: .25s;
-
+    animation-duration: .5s;
+    position: absolute;
+    z-index: 1;
 }
 .mobile-menu-hide{
     display: none;
@@ -85,9 +86,6 @@ nav {
    color: gold;
 }
 
-/* .headDiv{
-   
-} */
 @keyframes drop {
     0% {
         height: 0;
